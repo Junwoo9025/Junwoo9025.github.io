@@ -40,7 +40,7 @@ nav a {
 nav a:hover {
   background-color: #289daf;
   color: #264653;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 header {
@@ -82,7 +82,7 @@ footer a {
 
 footer a:hover {
   color: #264653;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 #content {
