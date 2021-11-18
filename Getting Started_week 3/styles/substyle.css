@@ -285,3 +285,42 @@ footer a:hover {
     margin-top: 25px;
   }
 }
+
+#contact {
+  float: right;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+h1 {
+  display: inline;
+}
+.page-title-wrapper {
+  margin-top: 2em;
+  text-align: center;
+}
+.page-title-wrapper h1 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+body {
+  color: #364;
+  font-family: "Arial", "sans-serif";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42857143;
+  font-size: 1.4rem;
+}
+input [type="text"] {
+  background: #fff;
+  background-clip: padding-box;
+  border: 1px;
+  border-radius: 1px;
+  font-family: "Lato", Verdana, Arial, sans-serif;
+  font-size: 14px;
+  height: 32px;
+  line-height: 1.42857143;
+  padding: 0 9px;
+  vertical-align: baseline;
+  width: 100%;
+  box-sizing: border-box;
+}
