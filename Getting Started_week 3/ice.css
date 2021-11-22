@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.thanks {
+  width: 700px;
+  height: 400px;
+  align-self: center;
+  border-radius: 50%;
+}
+.text {
+  text-align: center;
+}
+.test {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #461616;
+}
