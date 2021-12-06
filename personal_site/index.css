@@ -124,6 +124,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 3fr;
   align-items: center;
+  margin-top: -42px;
 }
 
 /* 
@@ -161,4 +162,30 @@ a {
 }
 .heading-section {
   text-align: center;
+}
+.Box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+.Box div {
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0.3125rem 0;
+}
+.img {
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 400px;
+  display: block;
+  max-width: 100%;
+}
+.iimg {
+  height: 49px;
+  margin-bottom: -27px;
+  padding-left: 26px;
 }

@@ -1,0 +1,25 @@
+.title {
+  text-align: left;
+  grid-column: 1/2;
+  font-size: 18px;
+  color: blue;
+}
+.image {
+  grid-column: 2/3;
+  max-width: 100%;
+  height: auto;
+}
+
+.early {
+  opacity: 60%;
+}
+.box {
+  height: 38px;
+  width: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+}
+.ets {
+  margin-top: 20px;
+}
