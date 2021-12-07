@@ -16,7 +16,7 @@
 }
 body {
   font-family: "Poppins", Arial, sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.8;
   font-weight: normal;
   background: #fafafa;
@@ -170,11 +170,9 @@ a {
 }
 .Box div {
   text-align: center;
-  font-weight: bold;
-  color: #000;
+  color: black;
   text-transform: uppercase;
   text-decoration: none;
-  margin: 0.3125rem 0;
 }
 .img {
   top: 0;
@@ -186,6 +184,20 @@ a {
 }
 .iimg {
   height: 49px;
-  margin-bottom: -27px;
+  margin-bottom: -16px;
   padding-left: 26px;
+}
+
+#pls {
+  margin: 0.3125rem 0;
+  font-weight: bold;
+}
+.social-media {
+  padding: 20px;
+}
+h4 {
+  text-align: center;
+  margin-top: 1.25rem;
+  font-size: 14px;
+  color: #000000;
 }
