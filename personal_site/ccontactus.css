@@ -15,7 +15,7 @@
   padding: 7em 0;
 }
 body {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 13px;
   line-height: 1.8;
   font-weight: normal;
@@ -129,20 +129,19 @@ a {
 
 /* 
 <------new line ------> */
-@media (max-width: 991.98px) .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-  color: #f1bc31;
+@media (max-width: 991.98px) {
 }
 
 .ftco-navbar-light .navbar-nav > .nav-item.active > a {
   color: #fff;
 }
-@media (max-width: 991.98px) .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+/* @media (max-width: 991.98px) .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0.9rem;
   padding-bottom: 0.9rem;
   color: rgba(255, 255, 255, 0.7);
-}
+} */
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
   font-size: 11px;
   padding-top: 1.5rem;
@@ -208,7 +207,7 @@ a {
   font: 1em sans-serif;
   width: 300px;
   box-sizing: border-box;
-  border: 1px solid #;
+  border: 1px solid;
 }
 #title {
   text-transform: uppercase;
@@ -225,8 +224,6 @@ a {
   padding: 0;
   font-weight: 700;
   margin-bottom: 0.9375rem;
-  padding: 0 0.625rem;
-  font-size: 0.85rem;
   width: 100%;
 }
 .box {
@@ -273,4 +270,11 @@ body {
   color: #fff;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
+}
+
+.conss {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+  margin-top: -43px;
 }
